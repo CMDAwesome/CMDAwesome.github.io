@@ -1,6 +1,6 @@
 title: Robert Keyes | Professional Portfolio
 url: "https://cmdawesome.github.io"
-baseurl: "/portfolio"
+baseurl: ""
 techfolio-theme: default.css
 rouge-theme: github.css
 markdown: kramdown
