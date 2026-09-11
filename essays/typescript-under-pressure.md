@@ -10,9 +10,9 @@ labels:
   - Learning
 ---
 
-<figure class="my-4">
-  <img src="../img/typescript-under-pressure.svg" alt="Two kinds of feedback: TypeScript offers type checks while writing code, while timed practice adds a deadline and reflection afterward. Both feed into learning." style="width: 100%; height: auto;">
-  <figcaption class="text-muted mt-2">Two kinds of feedback in my learning process. Diagram created with ChatGPT assistance.</figcaption>
+<figure class="my-4 text-center">
+  <img src="../img/typescript-under-pressure.png" alt="A man sweating heavily—a reaction image illustrating the pressure of timed coding exercises." width="225" height="225" style="max-width: 100%; height: auto;">
+  <figcaption class="text-muted mt-2">Me trying to stay calm during a timed coding exercise.</figcaption>
 </figure>
 
 ## A familiar language with less friction
@@ -35,4 +35,4 @@ I also think there could be more flexibility in grading, particularly as the pro
 
 Overall, I still think WODs are useful for learning, and I can see this style helping me become more confident with practice. Right now, though, I find them more stressful than enjoyable. They can make me second-guess my abilities, even when I'm making progress. I think this approach could work for me, but a little more guidance and flexibility would make it easier to build confidence while still benefiting from the challenge.
 
-*AI assistance disclosure: I used ChatGPT to help clean up the grammar, spelling, punctuation, and flow of this essay, organize it with headings, and create the accompanying diagram. The experiences and opinions expressed are my own.*
+*AI assistance disclosure: I used ChatGPT to help clean up the grammar, spelling, punctuation, and flow of this essay and organize it with headings. The experiences and opinions expressed are my own.*
