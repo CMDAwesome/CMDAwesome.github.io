@@ -16,7 +16,9 @@ exclude:
   - LICENSE
   - README.md
   - projects
-  - essays
+  - essays/difficulty.md
+  - essays/igniting.md
+  - essays/smart-questions.md
 include:
   - .nojekyll
   - _data
