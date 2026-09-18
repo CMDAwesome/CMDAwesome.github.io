@@ -3,6 +3,7 @@ title: Resume
 layout: home
 ---
 
+
 <main class="bg-gradient py-5" style="background-color: var(--tf-page-bg-color)">
   <div class="container">
     <h1 class="display-4">{{ site.data.bio.basics.name }}</h1>
@@ -14,7 +15,17 @@ layout: home
     <hr class="my-4">
     <section class="row py-3" aria-labelledby="education">
       <div class="col-lg-3"><h2 id="education" class="display-6">Education</h2></div>
-      <div class="col-lg-9">{% for entry in site.data.bio.education %}<p class="lead">{{ entry.institution }}</p>{% endfor %}</div>
+      <div class="col-lg-9">
+        {% for entry in site.data.bio.education %}
+        <div class="mb-4">
+          <p class="lead mb-1">{{ entry.institution | escape }}</p>
+          {% if entry.studyType %}<p class="mb-1">{{ entry.studyType | escape }}{% if entry.area %}, {{ entry.area | escape }}{% endif %}</p>{% endif %}
+          {% if entry.startDate %}<p class="mb-1">{{ entry.startDate | append: '-01' | date: "%B %Y" }} – {% if entry.endDate %}{{ entry.endDate | append: '-01' | date: "%B %Y" }}{% else %}Present{% endif %}</p>{% endif %}
+          {% if entry.courses.size > 0 %}<p class="mb-1">Coursework: {{ entry.courses | join: ', ' | escape }}</p>{% endif %}
+          {% for honor in entry.honors %}<p class="mb-1">{{ honor | escape }}</p>{% endfor %}
+        </div>
+        {% endfor %}
+      </div>
     </section>
     {% if site.data.bio.work.size > 0 %}
     <section class="row py-3" aria-labelledby="experience">
@@ -34,3 +45,4 @@ layout: home
     </section>
   </div>
 </main>
+
