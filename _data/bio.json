@@ -4,23 +4,44 @@
     "label": "Coder",
     "picture": "https://github.com/CMDAwesome.png",
     "website": "https://cmdawesome.github.io/",
-    "summary": "I’m Robert Keyes, a coder at the University of Hawaiʻi at Mānoa.",
+    "summary": "I’m Robert Keyes, a student at the University of Hawaiʻi at Mānoa interested in software engineering, game development, and using data to solve everyday problems. I enjoy the variety of challenges programming offers, from creating game mods to exploring questions about technology and ethics.",
     "profiles": [
       {
         "network": "github",
         "username": "CMDAwesome",
         "url": "https://github.com/CMDAwesome"
+      },
+      {
+        "network": "linkedin",
+        "username": "robertkeyes5954",
+        "url": "https://www.linkedin.com/in/robertkeyes5954"
       }
     ]
   },
   "interests": [
     {
-      "name": "Coding"
+      "name": "Software Engineering"
+    },
+    {
+      "name": "Game Development and Modding"
+    },
+    {
+      "name": "Data Analysis"
+    },
+    {
+      "name": "Technology and Ethics"
     }
   ],
   "education": [
     {
       "institution": "University of Hawaiʻi at Mānoa"
+    }
+  ],
+  "work": [
+    {
+      "company": "Frida’s",
+      "location": "Ewa Beach, Hawaiʻi",
+      "startDate": "2026-05"
     }
   ]
 }
