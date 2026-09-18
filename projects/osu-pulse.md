@@ -18,6 +18,8 @@ summary: "An AI-assisted Firefox and Zen extension project for tracking changes 
 
 osu! Pulse is a Firefox and Zen Browser extension project that tracks changes in osu! followers, mutual connections, beatmap favorites, and mapping subscribers. Its documented design places updates inside the site's notification bell. The first successful check establishes a baseline, and later checks compare new information with that saved state. This is a personal prototype, not an official osu! product.
 
+Learn more about the game on the [official osu! website](https://osu.ppy.sh/).
+
 ## My role and the implementation
 
 I pursued this project as a way to connect my interest in gaming with a practical software tool. I used AI assistance to create the implementation; I do not claim to have independently written all of its code. The repository includes an extension package and a source archive. Its documentation describes OAuth authentication, periodic API requests, local snapshots, and a content script that integrates notifications into the website.
