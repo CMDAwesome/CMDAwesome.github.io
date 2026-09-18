@@ -15,7 +15,9 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - projects
+  - projects/cotton.md
+  - projects/micromouse.md
+  - projects/vacay.md
   - essays/difficulty.md
   - essays/igniting.md
   - essays/smart-questions.md
@@ -24,3 +26,4 @@ include:
   - _data
 plugins:
   - jekyll-gist
+
