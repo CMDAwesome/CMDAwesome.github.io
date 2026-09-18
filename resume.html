@@ -16,6 +16,18 @@ layout: home
       <div class="col-lg-3"><h2 id="education" class="display-6">Education</h2></div>
       <div class="col-lg-9">{% for entry in site.data.bio.education %}<p class="lead">{{ entry.institution }}</p>{% endfor %}</div>
     </section>
+    {% if site.data.bio.work.size > 0 %}
+    <section class="row py-3" aria-labelledby="experience">
+      <div class="col-lg-3"><h2 id="experience" class="display-6">Experience</h2></div>
+      <div class="col-lg-9">
+        {% for entry in site.data.bio.work %}
+        <p class="lead mb-1">{{ entry.company | escape }}{% if entry.position %} — {{ entry.position | escape }}{% endif %}</p>
+        <p class="mb-1">{{ entry.location | escape }}</p>
+        <p>{{ entry.startDate | append: '-01' | date: "%B %Y" }} – {% if entry.endDate %}{{ entry.endDate | append: '-01' | date: "%B %Y" }}{% else %}Present{% endif %}</p>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
     <section class="row py-3" aria-labelledby="interests">
       <div class="col-lg-3"><h2 id="interests" class="display-6">Interests</h2></div>
       <div class="col-lg-9">{% for entry in site.data.bio.interests %}<p class="lead">{{ entry.name }}</p>{% endfor %}</div>
