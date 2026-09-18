@@ -2,7 +2,7 @@
   "basics": {
     "name": "Robert Keyes",
     "label": "Coder",
-    "picture": "https://github.com/CMDAwesome.png",
+    "picture": "/img/robert-keyes.jpg",
     "website": "https://cmdawesome.github.io/",
     "summary": "I’m Robert Keyes, a student at the University of Hawaiʻi at Mānoa interested in software engineering, game development, and using data to solve everyday problems. I enjoy the variety of challenges programming offers, from creating game mods to exploring questions about technology and ethics.",
     "profiles": [
@@ -35,6 +35,20 @@
   "education": [
     {
       "institution": "University of Hawaiʻi at Mānoa"
+    },
+    {
+      "institution": "James Campbell High School",
+      "studyType": "High School Diploma",
+      "area": "Cinematography and Film/Video Production",
+      "startDate": "2020-08",
+      "endDate": "2021-05",
+      "honors": [
+        "Cum Laude",
+        "CTE (Career and Technical Education) Honors Recognition"
+      ],
+      "courses": [
+        "Creative Media"
+      ]
     }
   ],
   "work": [
