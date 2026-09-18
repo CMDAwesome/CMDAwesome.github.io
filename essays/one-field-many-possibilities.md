@@ -18,4 +18,4 @@ I also enjoy the problem-solving process itself. There is something satisfying, 
 
 As I learn software engineering, I hope to become better at turning these interests into complete, reliable projects. I want to practice designing programs, debugging problems, testing my solutions, and improving code without losing sight of what it needs to accomplish. I would also like experience working with other developers and using data to answer practical questions. Whether I am building a game, creating a mod, or investigating my commute, I want the skills to take an idea beyond something I imagine and make it something I can actually use.
 
-*AI assistance disclosure: I used ChatGPT to organize and expand my notes into four paragraphs and revise the wording, grammar, and spelling.*
+AI assistance disclosure: I used ChatGPT to help clean up the grammar, spelling, punctuation, and flow of this essay and organize it with headings. The experiences and opinions expressed are my own.
